@@ -14,12 +14,10 @@
 		/>
 	</head>
 	<body>
-
-
 		<!-- header -->
-<!-- Логотип + текст в шапке -->
+		<!-- Логотип + текст в шапке -->
 
-		<div class="container">
+		<div class="container none">
 			<div class="logo-conteiner">
 				<div class="logo">
 					<img src="./img/header/logo.svg" alt="logo" />
@@ -27,23 +25,22 @@
 				</div>
 
 				<!-- Навигация -->
-				
-					<div class="nav">
-						<ul class="nav-list">
-							<li><a class="nav-link orange">Home</a></li>
-							<li><a class="nav-link">About us</a></li>
-							<li><a class="nav-link">Find space</a></li>
-							<li><a class="nav-link">Share space</a></li>
-							<li><a class="nav-link">Promote space</a></li>
-						</ul>
-					</div>
+
+				<div class="nav">
+					<ul class="nav-list">
+						<li><a class="nav-link orange">Home</a></li>
+						<li><a class="nav-link">About us</a></li>
+						<li><a class="nav-link">Find space</a></li>
+						<li><a class="nav-link">Share space</a></li>
+						<li><a class="nav-link">Promote space</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 
-
 		<!-- Заголовок + форма + кнопка -->
 
-		<header class="header container">
+		<header class="header container none">
 			<div class="header__left">
 				<h1 class="header__title">
 					Find your custom matched commercial real estate space.
@@ -72,17 +69,12 @@
 			</div>
 		</header>
 
-
-
-<!-- main block -->
-
-
+		<!-- main block -->
 
 		<main>
-
 			<!-- Клиенты логотипы -->
-			
-			<section class="clients">
+
+			<section class="clients none">
 				<div class="container clients__wrap">
 					<img src="./img/main/clients/logo-1.svg" alt="clients-1" />
 					<img src="./img/main/clients/logo-2.svg" alt="clients-2" />
@@ -92,22 +84,113 @@
 			</section>
 
 			<!-- Информация -->
-			<section class="information">
+			<section class="information information__bottom none">
 				<div class="information__pictures">
 					<div class="picture">
-						<img class="picture__img" src="./img/main/information/information-left.jpg" alt="information" />
+						<img
+							class="picture__img"
+							src="./img/main/information/information-left.jpg"
+							alt="information"
+						/>
 					</div>
 					<div class="picture">
-						<img class="picture__img" src="./img/main/information/information-right.jpg" alt="information-2" />
+						<img
+							class="picture__img"
+							src="./img/main/information/information-right.jpg"
+							alt="information-2"
+						/>
 					</div>
 				</div>
 
 				<!-- Информационное описание -->
 				<div class="container information__description">
 					<h2 class="title">We provide best space for you!</h2>
-					<p class="text">Quid ex eo ortum, tam inportuno tamque crudeli; sin, ut aliquid ex ea quid est et via procedat oratio quaerimus.</p>
-					<p class="text information__text">quid aut ad id omnia referri oporteat, ipsum autem nusquam hoc epicurus in ea commodi consequatur?</p>
+					<p class="text">
+						Quid ex eo ortum, tam inportuno tamque crudeli; sin, ut aliquid ex
+						ea quid est et via procedat oratio quaerimus.
+					</p>
+					<p class="text information__text">
+						quid aut ad id omnia referri oporteat, ipsum autem nusquam hoc
+						epicurus in ea commodi consequatur?
+					</p>
 					<button class="btn information__btn">Subscribe</button>
+				</div>
+			</section>
+
+			<!-- Продукт -->
+
+			<section class="product container">
+				<img class="oval-up" src="./img/main/product/Oval.png" alt="Oval_up" />
+
+				<img
+					class="oval-down"
+					src="./img/main/product/Oval_down.png"
+					alt="oval-down"
+				/>
+
+				<div class="product__img">
+					<img src="./img/main/product/dashboard.jpg" alt="dashboard" />
+				</div>
+
+				<div class="product__information">
+					<h2 class="title product__title">Start using our product</h2>
+					<p class="text product__text">
+						Quid ex eo ortum, tam inportuno tamque crudeli; sin, ut aliquid ex
+					</p>
+					<div class="product__buttons">
+						<button class="btn">Contact Us</button>
+						<button class="btn btn_white">
+							<img
+								src="./img/main/product/Icon_watch.svg"
+								alt="icon watch"
+							/>Watch now
+						</button>
+					</div>
+				</div>
+
+				<!-- Главное server -->
+			</section>
+
+			<section class="serve">
+				<div class="container">
+					<div class="serve__header">
+						<h2 class="title">Who do we serve?</h2>
+						<p class="text">
+							Every buyer and seller of tech and services in the world.
+						</p>
+					</div>
+
+					<!-- Карточка Левая server -->
+
+					<div class="cards">
+						<div class="card">
+							<img
+								class="card__img"
+								src="./img/main/card/buyers.svg"
+								alt="buyers"
+							/>
+							<h3 class="title card__title">Buyers</h3>
+							<p class="text card__text">
+								Torquem detraxit hosti et quidem se texit, ne ad eam.
+							</p>
+							<button class="btn btn_white">Get Started</button>
+						</div>
+
+						<!-- Правая карточка -->
+
+						<div class="card card_white">
+							<img
+								class="card__img"
+								src="./img/main/card/sale.svg"
+								alt="buyers"
+							/>
+							<h3 class="title">Seller</h3>
+							<p class="text card__text card__text_black">
+								Torquem detraxit hosti et quidem se texit, ne ad eam.
+							</p>
+							<button class="btn btn_white">Get Started</button>
+						</div>
+					</div>
 				</div>
 			</section>
 		</main>
