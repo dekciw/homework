@@ -9,7 +9,6 @@
 
 .container {
 	max-width: 1140px; /* Максимальная длина блока */
-	padding: 0 15px; /* внутрненний отсутп */
 	margin: 0 auto; /* внешний отсутп*/
 }
 
@@ -303,6 +302,10 @@
 
 /* Лидеры */
 
+.choose {
+	margin-bottom: 171px;
+}
+
 .leaderships {
 	display: flex;
 	justify-content: space-between;
@@ -333,4 +336,68 @@
 .leadership_text {
 	max-width: 248px;
 	text-align: center;
+}
+
+/* Обратная связь */
+
+.feedback__intro {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 58px;
+}
+
+.feedback__title {
+	max-width: 450px;
+}
+
+.feedback__text {
+	max-width: 398px;
+}
+
+/* Отзывы */
+
+/* Отзыв № 1 */
+
+.reviews {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 97px;
+}
+
+.review {
+	max-width: 350px;
+	display: block;
+	border-radius: 5px 5px 5px 5px;
+	padding-bottom: 31px;
+}
+
+.review_shadow {
+	max-width: 350px;
+	display: block;
+	border-radius: 5px 5px 5px 5px;
+  box-shadow: 0px 17px 42px rgba(0, 0, 0, 0.12);
+	padding-bottom: 31px;
+}
+.review__img {
+	max-width: 350px;
+}
+
+.review__text {
+	max-width: 292px;
+	margin: 31px 29px 23px 29px;
+}
+
+.review__title {
+	font-size: 18px;
+	margin: 0 0 0 29px;
+}
+
+.review__surname {
+	color: #58BEBF;
+	margin: 0 0 0 29px;
+}
+
+.review__surname_orange {
+	color: orange;
 }
