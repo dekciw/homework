@@ -231,6 +231,7 @@
 /* Serve */
 .serve {
 	position: relative;
+	margin-bottom: 113px;
 }
 .serve:before {
 	content: '';
@@ -297,4 +298,39 @@
 
 .card__text_black {
 	color: black;
+	margin-bottom: 113px;
+}
+
+/* Лидеры */
+
+.leaderships {
+	display: flex;
+	justify-content: space-between;
+}
+
+.leadership {
+	max-width: 248px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.choose__title {
+	text-align: center;
+	margin-bottom: 54px;
+}
+
+.leadership__img {
+	max-width: 70px;
+}
+
+.leadership__title {
+	font-size: 28px;
+	padding-top: 15px;
+	padding-bottom: 2px;
+}
+
+.leadership_text {
+	max-width: 248px;
+	text-align: center;
 }
